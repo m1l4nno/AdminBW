@@ -1,1 +1,1063 @@
-<!DOCTYPE html><html lang="de"><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Bewerbung als Administrator - Titus Maximus</title><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"><style>:root{--discord-blurple:#5865F2;--discord-green:#57F287;--discord-yellow:#FEE75C;--discord-fuchsia:#EB459E;--discord-red:#ED4245;--background-dark:#0a0c10;--background-elevated:#1e2128;--border-color:#2a2d36;--text-primary:#ffffff;--text-secondary:#8b949e;--text-muted:#6e7681;--gradient-primary:linear-gradient(135deg, var(--discord-blurple) 0%, #8b5cf6 100%);--gradient-green:linear-gradient(135deg, var(--discord-green) 0%, #10b981 100%);--gradient-accent:linear-gradient(135deg, var(--discord-fuchsia) 0%, #ec4899 100%);--shadow-sm:0 1px 3px rgba(0, 0, 0, 0.12);--shadow-md:0 4px 6px -1px rgba(0, 0, 0, 0.25);--shadow-lg:0 10px 15px -3px rgba(0, 0, 0, 0.3);--shadow-xl:0 20px 25px -5px rgba(0, 0, 0, 0.35);--transition-fast:150ms cubic-bezier(0.4, 0, 0.2, 1);--transition-base:250ms cubic-bezier(0.4, 0, 0.2, 1);--transition-slow:350ms cubic-bezier(0.4, 0, 0.2, 1)}*{margin:0;padding:0;box-sizing:border-box}html{scroll-behavior:smooth}body{background-color:var(--background-dark);color:var(--text-primary);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen,Ubuntu,sans-serif;line-height:1.6;overflow-x:hidden}.disclaimer-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:var(--background-dark);z-index:2000;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:2rem;transition:opacity var(--transition-slow)}.disclaimer-overlay.hidden{opacity:0;pointer-events:none}.disclaimer-content{max-width:800px;width:100%;text-align:center}.disclaimer-step{display:none;animation:fadeIn .5s ease}.disclaimer-step.active{display:block}@keyframes fadeIn{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}.disclaimer-title{font-size:2.5rem;margin-bottom:1.5rem;color:var(--text-primary);font-family:Georgia,'Times New Roman',Times,serif}.disclaimer-text{font-size:1.25rem;color:var(--text-secondary);margin-bottom:3rem;line-height:1.8}.contact-step-content{text-align:center}.contact-heading{font-size:1.5rem;color:var(--text-primary);margin:2.5rem 0 1.5rem;display:block;font-weight:600}.contact-heading:first-child{margin-top:0}.contact-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2rem;margin:2rem auto 3rem;max-width:600px}.contact-item{text-align:center}.contact-label{display:block;font-size:1.1rem;color:#fff;margin-bottom:.75rem;font-weight:500;font-family:Georgia,'Times New Roman',Times,serif}.discord-widget-btn{display:block;padding:6px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);transition:all .3s ease;width:100%;max-width:280px;margin:0 auto}.discord-widget-btn img{width:100%;border-radius:10px;display:block}.discord-widget-btn:hover{transform:translateY(-3px) scale(1.02);background:rgba(145,145,145,.1);border-color:rgba(255,255,255,.4);box-shadow:0 8px 18px rgba(255,255,255,.25)}.disclaimer-progress{display:flex;justify-content:center;gap:.5rem;margin-bottom:2rem}.progress-dot{width:12px;height:12px;border-radius:50%;background:var(--border-color);transition:all var(--transition-base)}.progress-dot.active{background:var(--discord-blurple);transform:scale(1.2)}.disclaimer-button{background:var(--gradient-primary);color:#fff;border:none;padding:1rem 3rem;font-size:1.125rem;font-weight:600;border-radius:12px;cursor:pointer;transition:all var(--transition-base);display:inline-flex;align-items:center;gap:.75rem;margin-top:1rem}.disclaimer-button:hover{transform:translateY(-2px);box-shadow:var(--shadow-lg)}.disclaimer-button:active{transform:translateY(0)}.disclaimer-button.final{background:var(--gradient-green)}.disclaimer-note{margin-top:2rem;color:var(--text-muted);font-size:.875rem;font-style:italic}.animated-bg{position:fixed;top:0;left:0;width:100%;height:100%;background:radial-gradient(circle at 20% 80%,rgba(88,101,242,.15) 0,transparent 50%),radial-gradient(circle at 80% 20%,rgba(87,242,135,.1) 0,transparent 50%),radial-gradient(circle at 40% 40%,rgba(235,69,158,.08) 0,transparent 50%);z-index:-2}h1,h2,h3,h4{font-weight:700;line-height:1.2}.gradient-text{background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.navbar{position:fixed;top:0;left:0;right:0;background:rgba(10,12,16,.95);backdrop-filter:blur(20px);border-bottom:1px solid var(--border-color);z-index:1000;padding:0 1rem}.nav-container{max-width:1400px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;padding:1rem 0}.logo-container{display:flex;align-items:center;gap:.75rem}.logo-container i{font-size:1.75rem;background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}.logo-text{display:flex;flex-direction:column;line-height:1}.logo-main{font-size:1.5rem;font-weight:800;color:var(--text-primary)}.logo-sub{font-size:.875rem;font-weight:600;color:var(--discord-blurple);opacity:.8}.nav-menu{display:flex;list-style:none;gap:2rem;margin:0;padding:0}.nav-link{color:var(--text-secondary);text-decoration:none;font-weight:500;padding:.5rem 0;position:relative;transition:color var(--transition-fast)}.nav-link:hover{color:var(--text-primary)}.nav-link.active{color:var(--text-primary)}.nav-link.active::after{content:'';position:absolute;bottom:0;left:0;width:100%;height:2px;background:var(--gradient-primary);border-radius:1px}.menu-toggle{display:none;flex-direction:column;gap:4px;background:0 0;border:none;cursor:pointer;padding:.5rem}.menu-toggle span{width:24px;height:2px;background:var(--text-primary);transition:var(--transition-base);border-radius:1px}.menu-toggle.active span:first-child{transform:rotate(45deg) translate(6px,6px)}.menu-toggle.active span:nth-child(2){opacity:0}.menu-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(6px,-6px)}.mobile-menu{position:fixed;top:70px;left:0;right:0;background:var(--background-dark);border-top:1px solid var(--border-color);padding:1rem;display:none;flex-direction:column;gap:.5rem;z-index:999;border-bottom:1px solid var(--border-color)}.mobile-menu.active{display:flex;animation:slideDown .3s ease}@keyframes slideDown{from{opacity:0;transform:translateY(-10px)}to{opacity:1;transform:translateY(0)}}.mobile-link{color:var(--text-primary);text-decoration:none;padding:.75rem 1rem;border-radius:6px;transition:background-color var(--transition-fast)}.container{max-width:1400px;margin:100px auto 0;padding:0 2rem;opacity:0;transition:opacity var(--transition-slow)}.container.visible{opacity:1}.hero{min-height:80vh;display:flex;align-items:center;padding:4rem 0}.hero-content{width:100%;text-align:left}.hero-badge{display:inline-block;background:var(--gradient-green);color:#fff;padding:.5rem 1.5rem;border-radius:50px;font-size:.875rem;font-weight:600;margin-bottom:1.5rem}.hero-title{font-size:3.5rem;margin-bottom:1.5rem;max-width:800px}.hero-description{font-size:1.125rem;color:var(--text-secondary);margin-bottom:3rem;max-width:600px;line-height:1.7}.hero-stats{display:flex;gap:4rem;margin-top:3rem;padding-top:3rem;border-top:1px solid var(--border-color);max-width:800px}.stat-item{text-align:left}.stat-number{font-size:2.5rem;font-weight:800;background:var(--gradient-primary);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1;margin-bottom:.5rem}.stat-label{color:var(--text-secondary);font-size:.875rem;font-weight:500}.section{padding:5rem 0;border-top:1px solid rgba(42,45,54,.2)}.section-header{margin-bottom:3rem;text-align:left}.section-title{font-size:2.5rem;margin-bottom:1rem}.section-subtitle{font-size:1.125rem;color:var(--text-secondary);max-width:600px}.content-block{margin-bottom:3rem}.content-title{font-size:1.5rem;color:var(--discord-blurple);margin-bottom:1.5rem;padding-left:1rem;border-left:4px solid var(--discord-blurple)}.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-bottom:2rem}.info-item{border:1px solid var(--border-color);border-radius:12px;padding:1.5rem}.info-row{display:flex;justify-content:space-between;align-items:center;padding:.75rem 0;border-bottom:1px solid rgba(42,45,54,.3)}.info-row:last-child{border-bottom:none}.info-label{color:var(--text-secondary);font-weight:500;font-size:.95rem}.info-value{font-weight:600;color:var(--text-primary);font-size:1rem}.status-badge{padding:.375rem 1rem;border-radius:50px;font-size:.75rem;font-weight:600;text-transform:uppercase}.status-success{background:rgba(87,242,135,.1);color:var(--discord-green);border:1px solid rgba(87,242,135,.3)}.requirements-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:2rem;margin-top:2rem}.requirement-card{border:1px solid var(--border-color);border-radius:12px;padding:2rem}.requirement-title{font-size:1.25rem;font-weight:600;margin-bottom:1rem;color:var(--text-primary)}.requirement-description{color:var(--text-secondary);line-height:1.6;margin-bottom:1rem}.requirement-list{list-style:none;margin-top:1rem}.requirement-list li{padding:.5rem 0;color:var(--text-secondary);display:flex;align-items:center;gap:.5rem}.requirement-list li:before{content:'✓';color:var(--discord-green);font-weight:700}.timeline{position:relative;margin:3rem 0;padding-left:30px}.timeline::before{content:'';position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--gradient-primary)}.timeline-item{position:relative;margin-bottom:2rem;padding-left:2rem}.timeline-item::before{content:'';position:absolute;left:-8px;top:5px;width:16px;height:16px;background:var(--discord-blurple);border-radius:50%;border:3px solid var(--background-dark)}.timeline-content{border:1px solid var(--border-color);border-radius:12px;padding:1.5rem}.timeline-title{font-size:1.125rem;font-weight:600;margin-bottom:.5rem;color:var(--text-primary)}.timeline-description{color:var(--text-secondary);font-size:.95rem;line-height:1.6}.faq-container{margin-top:2rem}.faq-item{margin-bottom:1rem;border:1px solid var(--border-color);border-radius:12px;overflow:hidden}.faq-question{padding:1.5rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;transition:background-color var(--transition-fast)}.faq-question:hover{background:var(--background-elevated)}.faq-question h3{font-size:1.125rem;font-weight:600;color:var(--text-primary)}.faq-icon{transition:transform var(--transition-fast)}.faq-item.active .faq-icon{transform:rotate(180deg)}.faq-answer{max-height:0;overflow:hidden;transition:max-height var(--transition-base)}.faq-item.active .faq-answer{max-height:500px}.answer-content{padding:1.5rem;border-top:1px solid var(--border-color);color:var(--text-secondary);line-height:1.7}.strengths-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:2rem;margin-top:2rem}.strength-card{border:1px solid var(--border-color);border-radius:12px;padding:2rem;transition:transform var(--transition-base)}.strength-card:hover{transform:translateY(-5px);border-color:var(--discord-blurple)}.strength-icon{width:48px;height:48px;background:var(--gradient-primary);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:1.25rem;margin-bottom:1.5rem}.disclaimer-link{text-decoration:none;color:var(--text-secondary);display:inline-block;margin-top:8px}.disclaimer-link:hover{text-decoration:underline}.strength-title{font-size:1.25rem;font-weight:600;margin-bottom:1rem;color:var(--text-primary)}.strength-description{color:var(--text-secondary);line-height:1.6}.closing-section{margin:4rem 0;padding:3rem;border:1px solid var(--border-color);border-radius:16px}.closing-title{font-size:2rem;margin-bottom:2rem;color:var(--text-primary)}.closing-text{color:var(--text-secondary);font-size:1.125rem;line-height:1.8;margin-bottom:2rem}.signature{margin-top:3rem;padding-top:2rem;border-top:1px solid var(--border-color);font-size:1.25rem;font-weight:700;color:var(--text-primary)}.footer{background:var(--background-dark);border-top:1px solid var(--border-color);padding:4rem 2rem 2rem;margin-top:4rem}.footer-container{max-width:1400px;margin:0 auto}.footer-main{display:grid;grid-template-columns:1fr 2fr;gap:4rem;margin-bottom:3rem}.footer-brand{display:flex;flex-direction:column}.footer-tagline{color:var(--text-secondary);margin:1rem 0;line-height:1.6}.footer-social{display:flex;gap:1rem;margin-top:1rem}.social-link{width:40px;height:40px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:var(--text-secondary);text-decoration:none;transition:all var(--transition-fast)}.social-link:hover{background:var(--discord-blurple);color:#fff;transform:translateY(-2px)}.footer-links{display:grid;grid-template-columns:repeat(3,1fr);gap:3rem}.link-group h4{font-size:1.125rem;margin-bottom:1.5rem;color:var(--text-primary)}.link-group a{display:block;color:var(--text-secondary);text-decoration:none;margin-bottom:.75rem;transition:color var(--transition-fast)}.link-group a:hover{color:var(--text-primary)}.footer-bottom{padding-top:2rem;border-top:1px solid var(--border-color);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}.copyright{color:var(--text-muted);font-size:.875rem}.copyright a{color:var(--discord-blurple);text-decoration:none}.copyright a:hover{text-decoration:underline}@media (max-width:1200px){.hero-title{font-size:3rem}.section-title{font-size:2.25rem}}@media (max-width:992px){.nav-menu{display:none}.menu-toggle{display:flex}.footer-main{grid-template-columns:1fr;gap:3rem}.footer-links{grid-template-columns:repeat(2,1fr)}.hero-stats{gap:2rem}.disclaimer-title{font-size:2rem}.disclaimer-text{font-size:1.125rem}.contact-grid{grid-template-columns:1fr;max-width:320px}}@media (max-width:768px){.hero{padding:2rem 0}.hero-title{font-size:2.5rem}.section-title{font-size:2rem}.hero-stats{flex-direction:column;gap:2rem;align-items:flex-start}.strengths-grid{grid-template-columns:1fr}.footer-links{grid-template-columns:1fr}.disclaimer-overlay{padding:1rem}.disclaimer-title{font-size:1.75rem}.disclaimer-text{font-size:1rem}.contact-heading{font-size:1.3rem}}@media (max-width:480px){.container{padding:0 1rem}.hero-title{font-size:2rem}.section-title{font-size:1.75rem}.closing-section{padding:2rem}.footer-bottom{flex-direction:column;text-align:center}.disclaimer-title{font-size:1.5rem}.disclaimer-button{width:100%;justify-content:center}}</style><div class="disclaimer-overlay" id="disclaimerOverlay"><div class="disclaimer-content"><div class="disclaimer-step active" id="step1"><h2 class="disclaimer-title">Technische Umsetzung</h2><p class="disclaimer-text">Diese Webseite wurde vollständig von <strong>Milanno Bahr</strong> konzipiert und programmiert.</p><button class="disclaimer-button" onclick="nextStep()">Weiter <i class="fas fa-arrow-right"></i></button></div><div class="disclaimer-step" id="step2"><h2 class="disclaimer-title">Umsetzung</h2><p class="disclaimer-text">Diese Webseite wurde für Titus Maximus programmiert. Alle Inhalte wurden selbst geschrieben und individuell gestaltet.</p><button class="disclaimer-button" onclick="nextStep()">Weiter <i class="fas fa-arrow-right"></i></button></div><div class="disclaimer-step" id="step3"><div class="contact-step-content"><h2 class="disclaimer-title">Kontakt</h2><div class="contact-grid"><div class="contact-item"><span class="contact-label">Entwickler</span> <span class="contact-label">Milanno Bahr</span> <a class="discord-widget-btn" href="https://discord.com/users/1046511558177587314" target="_blank"><img src="https://discord.c99.nl/widget/theme-4/1046511558177587314.png" alt="Discord Status"></a></div><div class="contact-item"><span class="contact-label">Bewerber</span> <span class="contact-label">Titus Maximus</span> <a class="discord-widget-btn" href="https://discord.com/users/402833960356282379" target="_blank"><img src="https://discord.c99.nl/widget/theme-4/402833960356282379.png" alt="Discord Status"></a></div></div></div><button class="disclaimer-button final" onclick="showApplication()">Zur Bewerbung <i class="fas fa-external-link-alt"></i></button><p class="disclaimer-note">Durch Klicken bestätigen Sie, alle Hinweise gelesen zu haben</p></div></div></div><div class="animated-bg"></div><nav class="navbar"><div class="nav-container"><div class="nav-brand"><div class="logo-container"><div class="logo-text"><span class="logo-main">Titus Maximus</span> <span class="logo-sub">Admin Bewerbung</span></div></div></div><ul class="nav-menu"><li><a href="#home" class="nav-link active">Start</a></li><li><a href="#personal" class="nav-link">Persönlich</a></li><li><a href="#requirements" class="nav-link">Voraussetzungen</a></li><li><a href="#experience" class="nav-link">Erfahrung</a></li><li><a href="#faq" class="nav-link">FAQ</a></li><li><a href="#closing" class="nav-link">Bewerbung</a></li></ul><button class="menu-toggle" id="menuToggle"><span></span> <span></span> <span></span></button></div><div class="mobile-menu" id="mobileMenu"><a href="#home" class="mobile-link">Start</a> <a href="#personal" class="mobile-link">Persönliche Daten</a> <a href="#requirements" class="mobile-link">Voraussetzungen</a> <a href="#experience" class="mobile-link">Erfahrungen</a> <a href="#faq" class="mobile-link">FAQ</a> <a href="#closing" class="mobile-link">Bewerbung</a></div></nav><div class="container" id="mainContent"><section class="hero" id="home"><div class="hero-content"><h1 class="hero-title">Titus <span class="gradient-text">Maximus</span></h1><p class="hero-description">Professionelle Unterstützung für die Server-Community mit langjähriger Erfahrung, umfassendem Regelwerkswissen und Leidenschaft für qualitativ hochwertiges Roleplay</p><div class="hero-stats"><div class="stat-item"><div class="stat-number" id="serverCount">159846</div><div class="stat-label">Spieler ID</div></div><div class="stat-item"><div class="stat-number">15+</div><div class="stat-label">Organisationen</div></div><div class="stat-item"><div class="stat-number">3+</div><div class="stat-label">Jahre Erfahrung</div></div></div></div></section><section class="section" id="personal"><div class="section-header"><h2 class="section-title">Persönliche <span class="gradient-text">Informationen</span></h2><p class="section-subtitle">Alle relevanten Daten zur Person und Verfügbarkeit</p></div><div class="content-block"><h3 class="content-title">IC-Informationen</h3><div class="info-grid"><div class="info-item"><div class="info-row"><span class="info-label">Name</span> <span class="info-value">Titus Maximus</span></div><div class="info-row"><span class="info-label">Spieler ID</span> <span class="info-value">159846</span></div><div class="info-row"><span class="info-label">Onlinezeit (Mo-Fr)</span> <span class="info-value">3-4 Stunden täglich</span></div><div class="info-row"><span class="info-label">Onlinezeit (Sa-So)</span> <span class="info-value">5-6 Stunden täglich</span></div><div class="info-row"><span class="info-label">Aktive Zeiten</span> <span class="info-value">18:00-03:00 Uhr</span></div></div></div></div><div class="content-block"><h3 class="content-title">OOC-Informationen</h3><div class="info-grid"><div class="info-item"><div class="info-row"><span class="info-label">Realname</span> <span class="info-value">Florian</span></div><div class="info-row"><span class="info-label">Alter</span> <span class="info-value">18 Jahre</span></div><div class="info-row"><span class="info-label">Discord</span> <span class="info-value">floooo999</span></div><div class="info-row"><span class="info-label">Spielerlevel</span> <span class="info-value"><span class="status-badge status-success">Level 10</span></span></div><div class="info-row"><span class="info-label">Regelbrüche</span> <span class="info-value"><span class="status-badge status-success">Keine aktuellen</span></span></div></div></div></div></section><section class="section" id="requirements"><div class="section-header"><h2 class="section-title">Voraussetzungen <span class="gradient-text">& Bann-Historie</span></h2><p class="section-subtitle">Transparente Darstellung aller Voraussetzungen und vergangener Regelverstöße</p></div><div class="requirements-grid"><div class="requirement-card"><h3 class="requirement-title">Erfüllte Voraussetzungen</h3><p class="requirement-description">Alle grundlegenden Anforderungen für die Admin-Bewerbung sind vollständig erfüllt.</p><ul class="requirement-list"><li>Spielerlevel 10 - Erfolgreich erreicht</li><li>Regelwerkskenntnis - Umfassend vorhanden</li><li>Regelmäßige Onlinezeiten - Täglich gewährleistet</li><li>RP-Erfahrung - Mehrjährige Erfahrung</li><li>Teamfähigkeit - Leadership-Positionen bewiesen</li></ul></div><div class="requirement-card"><h3 class="requirement-title">Bann-Historie</h3><p class="requirement-description">Ich lege Wert auf vollständige Transparenz und habe 2 Banns in meiner Historie:</p><div style="margin:1rem 0;padding:1rem;background:rgba(254,231,92,.1);border-radius:8px;border-left:4px solid var(--discord-yellow)"><p><strong>Bann 1</strong> - 1.1 (vor über 280 Tagen)<br>Ursache: "Beginner Dummheit" - Accountübernahme für Visumzwecke.</p><p><strong>Bann 2</strong> - Deceiving Administration (vor über 160 Tagen)<br>Ursache: Regelverstoß gegenüber Administration.</p></div><p style="margin-top:1rem;font-style:italic;color:var(--text-secondary)">Seit meinem letzten Bann habe ich mich durch fehlerfreie Arbeit als NG Vize bewiesen und bitte um die Chance, mich in einem persönlichen Gespräch von meiner Entwicklung zu überzeugen.</p></div></div></section><section class="section" id="experience"><div class="section-header"><h2 class="section-title">Erfahrungs<span class="gradient-text">Timeline</span></h2><p class="section-subtitle">Mein Werdegang durch verschiedene Organisationen und Positionen</p></div><div class="timeline-content"><h4 class="timeline-title">Frühe Erfahrungen & Einstieg</h4><p class="timeline-description">Einstieg in Crime-Organisationen (Mara, Grove) und erste staatliche Erfahrungen bei NG und SAHP.</p></div><div class="timeline-content"><h4 class="timeline-title">Aufbauphase & Vertiefung</h4><p class="timeline-description">Erweiterte Erfahrungen in LSPD, SAHP und FIB. Entwicklung von Leadership-Fähigkeiten.</p></div><div class="timeline-content"><h4 class="timeline-title">Leadership-Phase & Verantwortung</h4><p class="timeline-description">Mehrfache NG- und SAHP-Erfahrungen, GOV-Tätigkeit. Politische Aktivität.</p></div><div class="timeline-content"><h4 class="timeline-title">Reifephase & Vize-Position</h4><p class="timeline-description">Erfolgreiche Tätigkeit als NG Vize ohne Fehler. Politische Führung als Parteivorsitz.</p></div></section><section class="section" id="faq"><div class="section-header"><h2 class="section-title">Allgemeine <span class="gradient-text">Informationen</span></h2><p class="section-subtitle">Häufig gestellte Fragen und Antworten</p></div><div class="faq-container"><div class="faq-item"><div class="faq-question"><h3>1. Zu welchen Zeiten bist du online?</h3><span class="faq-icon">▼</span></div><div class="faq-answer"><div class="answer-content"><strong>Unter der Woche (Mo-Fr):</strong> 18:00 - 22:00 Uhr<br><strong>Am Wochenende (Sa-So):</strong> 20:00 - 03:00 Uhr<br><strong>Gesamt pro Woche:</strong> 34+ Stunden Verfügbarkeit</div></div></div><div class="faq-item"><div class="faq-question"><h3>2. Wie schätzt du dein Wissen im Bereich Regelwerk ein?</h3><span class="faq-icon">▼</span></div><div class="faq-answer"><div class="answer-content">Durch meine mehrjährige Erfahrung in verschiedenen Leadership-Positionen habe ich ein umfassendes Regelwerkswissen aufgebaut. In meinem NG Vize Gespräch konnte ich erfolgreich meine Kenntnisse unter Beweis stellen.</div></div></div><div class="faq-item"><div class="faq-question"><h3>3. Organisationen-Erfahrung (Auszug)</h3><span class="faq-icon">▼</span></div><div class="faq-answer"><div class="answer-content"><strong>Staatliche Organisationen:</strong> NG (5x), SAHP (5x), LSPD, FIB (2x), GOV<br><strong>Crime Organisationen:</strong> Mara, Grove, Vagos<br><strong>Private Organisationen:</strong> Bubble (Rang 8), Zoey 101 (Rang 4)<br><strong>Politisch:</strong> USA - Parteivorsitz, Spitzenkandidat</div></div></div><div class="faq-item"><div class="faq-question"><h3>4. Wärst du bereit, das RP-Leben zu verlassen, um Admin zu werden?</h3><span class="faq-icon">▼</span></div><div class="faq-answer"><div class="answer-content"><strong>Ja.</strong> Ich habe alle Facetten des Roleplays erlebt und bin bereit, mich voll und ganz auf die Admin-Tätigkeit zu konzentrieren.</div></div></div><div class="faq-item"><div class="faq-question"><h3>5. Wärst du bereit, dein Unternehmen zu verkaufen?</h3><span class="faq-icon">▼</span></div><div class="faq-answer"><div class="answer-content"><strong>Ja.</strong> Ich bin bereit, mein Unternehmen zu verkaufen, um die Voraussetzungen für die Admin-Position vollständig zu erfüllen.</div></div></div></div></section><section class="section"><div class="section-header"><h2 class="section-title">Stärken & <span class="gradient-text">Kompetenzen</span></h2><p class="section-subtitle">Warum ich geeignet für die Admin-Position bin</p></div><div class="strengths-grid"><div class="strength-card"><h3 class="strength-title">Regelwerks-Experte</h3><p class="strength-description">Langjährige Erfahrung mit umfassendem Regelwerksverständnis. Kann Regeln korrekt anwenden und erklären.</p></div><div class="strength-card"><h3 class="strength-title">Teamplayer</h3><p class="strength-description">Erfahrung aus zahlreichen Organisationen und Leadership-Positionen. Klare Kommunikation und Teamarbeit.</p></div><div class="strength-card"><h3 class="strength-title">Fair & Neutral</h3><p class="strength-description">Entscheidungen basieren auf Fakten und Regelwerk. Fairness und Neutralität haben höchste Priorität.</p></div></div></section><section class="closing-section" id="closing"><h2 class="closing-title">Schlusswort & Bewerbung</h2><div class="closing-text"><p>Ich bedanke mich vielmals für die Zeit, die Sie sich für das Lesen meiner Bewerbung genommen haben. Ich bin mir meiner vergangenen Fehler bewusst und habe aus ihnen gelernt.</p><p>Ich bin überzeugt davon, dass ich mit meiner Erfahrung, meinem Wissen und meiner Leidenschaft für die Community eine Bereicherung für das Admin-Team darstellen würde.</p><p>Ich würde mich sehr über die Chance freuen, mich in einem persönlichen Gespräch vorstellen und von meiner Entwicklung überzeugen zu dürfen.</p></div><div class="signature">Mit freundlichen Grüßen,<br><strong>Titus Maximus</strong> (Florian) - ID: 159846</div></section></div><footer class="footer"><div class="footer-container"><div class="footer-main"><div class="footer-brand"><div class="logo-container"><div class="logo-text"><span class="logo-main">Titus Maximus</span> <span class="logo-sub">Admin Bewerbung</span></div></div><p class="footer-tagline">Titus Maxiumus halt</p><div class="footer-social"><a href="#" class="social-link"><i class="fab fa-discord"></i> </a><a href="#" class="social-link"><i class="fab fa-github"></i> </a><a href="#" class="social-link"><i class="fab fa-twitter"></i></a></div></div><div class="footer-links"><div class="link-group"><h4>Bewerbung</h4><a href="#personal">Persönliche Daten</a> <a href="#requirements">Voraussetzungen</a> <a href="#experience">Erfahrungen</a> <a href="#faq">FAQ</a> <a href="https://m1l4nno.com/grand">Du willst auch so eine Bewerbung? Melde dich hier!</a></div><div class="link-group"><h4>Rechtliches</h4><a href="https://m1l4nno.com/rechtliches/datenschutz">Datenschutz</a> <a href="https://m1l4nno.com/rechtliches/impressum">Impressum</a></div></div></div><div class="footer-bottom"><div class="copyright">&copy; 2026 Alle Rechte vorbehalten. <span style="margin:0 .5rem">|</span> <span><i class="fas fa-code"></i> Website Developed by <a href="https://github.com/m1l4nno" target="_blank">Milanno</a></span></div></div></div></footer><script>let currentStep=1;const totalSteps=5,disclaimerOverlay=document.getElementById("disclaimerOverlay"),mainContent=document.getElementById("mainContent");function nextStep(){currentStep<5&&(document.getElementById(`step${currentStep}`).classList.remove("active"),currentStep++,document.getElementById(`step${currentStep}`).classList.add("active"),updateProgressDots())}function updateProgressDots(){document.querySelectorAll(".progress-dot").forEach((e,t)=>{t<currentStep?e.classList.add("active"):e.classList.remove("active")})}function showApplication(){disclaimerOverlay.classList.add("hidden"),setTimeout(()=>{mainContent.classList.add("visible"),window.scrollTo(0,0)},500),sessionStorage.setItem("disclaimerSeen","true")}sessionStorage.getItem("disclaimerSeen")&&(disclaimerOverlay.style.display="none",mainContent.classList.add("visible"));const menuToggle=document.getElementById("menuToggle"),mobileMenu=document.getElementById("mobileMenu");menuToggle.addEventListener("click",()=>{menuToggle.classList.toggle("active"),mobileMenu.classList.toggle("active")}),document.addEventListener("click",e=>{menuToggle.contains(e.target)||mobileMenu.contains(e.target)||(menuToggle.classList.remove("active"),mobileMenu.classList.remove("active"))});const navLinks=document.querySelectorAll(".nav-link, .mobile-link");navLinks.forEach(e=>{e.addEventListener("click",function(){navLinks.forEach(e=>e.classList.remove("active")),this.classList.add("active"),menuToggle.classList.remove("active"),mobileMenu.classList.remove("active")})});const faqItems=document.querySelectorAll(".faq-item");function animateCounter(e,t,n=2e3){let o=0;const s=t/(n/16),c=setInterval(()=>{o+=s,o>=t?(e.textContent=t,clearInterval(c)):e.textContent=Math.floor(o)},16)}faqItems.forEach(e=>{e.querySelector(".faq-question").addEventListener("click",()=>{e.classList.toggle("active"),faqItems.forEach(t=>{t!==e&&t.classList.remove("active")})})});const observer=new IntersectionObserver(e=>{e.forEach(e=>{if(e.isIntersecting){const t=document.getElementById("serverCount");animateCounter(t,parseInt(t.textContent)||159846),observer.unobserve(e.target)}})},{threshold:.5}),heroSection=document.querySelector(".hero");heroSection&&observer.observe(heroSection),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();const t=this.getAttribute("href");if("#"===t)return;const n=document.querySelector(t);n&&window.scrollTo({top:n.offsetTop-80,behavior:"smooth"})})}),window.addEventListener("scroll",()=>{let e="";document.querySelectorAll("section[id]").forEach(t=>{const n=t.offsetTop-100,o=t.clientHeight;scrollY>=n&&scrollY<n+o&&(e=t.getAttribute("id"))}),navLinks.forEach(t=>{t.classList.remove("active"),t.getAttribute("href")===`#${e}`&&t.classList.add("active")})})</script></html>
+<!doctypehtml>
+  <html lang="de">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CP Bewerbung | GrandRP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Manrope:wght@400;500;700;800&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet">
+    <style>
+      :root {
+        --bg: #0a1218;
+        --bg-2: #111d26;
+        --text: #ebf3f8;
+        --muted: #9fb6c6;
+        --line: #2b4c61;
+        --line-2: #3f6f8f;
+        --accent: #33d4c7;
+        --accent-2: #79b8ff;
+        --warn: #f7d27e
+      }
+
+      * {
+        box-sizing: border-box
+      }
+
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+        background: radial-gradient(circle at 14% 7%, rgba(121, 184, 255, .2) 0, transparent 33%), radial-gradient(circle at 82% 14%, rgba(51, 212, 199, .14) 0, transparent 30%), var(--bg);
+        color: var(--text);
+        font-family: Manrope, sans-serif;
+        font-size: clamp(16px, 1.05vw, 19px);
+        scroll-behavior: smooth
+      }
+
+      body {
+        min-height: 100vh;
+        overflow-x: hidden
+      }
+
+      .grain {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        opacity: .12;
+        z-index: 0;
+        background-image: repeating-radial-gradient(circle at 0 0, transparent 0, #000 2px, transparent 4px)
+      }
+
+      .cursor-glow {
+        position: fixed;
+        width: 320px;
+        height: 320px;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(51, 212, 199, .22), transparent 62%);
+        pointer-events: none;
+        transform: translate(-50%, -50%);
+        z-index: 0
+      }
+
+      .scroll-progress {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 3px;
+        width: 0;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2), var(--warn));
+        z-index: 30;
+        box-shadow: 0 0 18px rgba(51, 212, 199, .45)
+      }
+
+      .topbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 20;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding: .9rem 2rem;
+        border-bottom: 1px solid rgba(63, 111, 143, .6);
+        background: rgba(8, 18, 24, .78);
+        backdrop-filter: blur(8px)
+      }
+
+      .logo {
+        color: var(--text);
+        text-decoration: none;
+        font-family: "Space Mono", monospace;
+        font-size: 1rem
+      }
+
+      .topbar nav {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap
+      }
+
+      .topbar nav a {
+        color: var(--muted);
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 1rem
+      }
+
+      .topbar nav a:hover {
+        color: var(--text)
+      }
+
+      .topbar nav a.active {
+        color: var(--text);
+        text-shadow: 0 0 14px rgba(51, 212, 199, .55)
+      }
+
+      main {
+        position: relative;
+        z-index: 1
+      }
+
+      section {
+        padding: 8.5rem min(7vw, 96px) 5.4rem
+      }
+
+      .section-kicker {
+        text-transform: uppercase;
+        letter-spacing: .14em;
+        font-size: .73rem;
+        color: var(--accent);
+        margin: 0 0 .35rem;
+        font-family: "Space Mono", monospace
+      }
+
+      .hero {
+        min-height: 100vh;
+        position: relative;
+        display: flex;
+        align-items: flex-end;
+        overflow: hidden;
+        border-bottom: 1px solid rgba(63, 111, 143, .5)
+      }
+
+      .hero-inner {
+        position: relative;
+        z-index: 2;
+        max-width: 920px
+      }
+
+      .hero-layer {
+        position: absolute;
+        inset: -8%;
+        pointer-events: none;
+        will-change: transform, opacity;
+        backface-visibility: hidden;
+        transform: translateZ(0)
+      }
+
+      .layer-a {
+        background: radial-gradient(circle at 20% 30%, rgba(51, 212, 199, .16), transparent 36%), radial-gradient(circle at 80% 70%, rgba(121, 184, 255, .16), transparent 38%);
+        animation: heroDriftA 20s ease-in-out infinite;
+        opacity: .72
+      }
+
+      .layer-b {
+        background: radial-gradient(circle at 70% 40%, rgba(247, 210, 126, .16), transparent 34%), radial-gradient(circle at 30% 78%, rgba(51, 212, 199, .14), transparent 34%);
+        animation: heroDriftB 14s ease-in-out infinite;
+        opacity: .66
+      }
+
+      @keyframes heroDriftA {
+
+        0%,
+        100% {
+          transform: translate3d(0, 0, 0) scale(1)
+        }
+
+        50% {
+          transform: translate3d(-12px, 8px, 0) scale(1.02)
+        }
+      }
+
+      @keyframes heroDriftB {
+
+        0%,
+        100% {
+          transform: translate3d(0, 0, 0)
+        }
+
+        50% {
+          transform: translate3d(10px, -10px, 0)
+        }
+      }
+
+      .hero-tag {
+        color: var(--accent-2);
+        font-family: "Space Mono", monospace
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin-top: 0;
+        line-height: 1.08;
+        font-family: Oswald, sans-serif;
+        letter-spacing: .02em
+      }
+
+      h1 {
+        font-size: clamp(2rem, 7.3vw, 5.7rem);
+        margin-bottom: .8rem
+      }
+
+      .hero-copy {
+        max-width: 74ch;
+        color: #d3e3ee;
+        font-size: clamp(1.08rem, 1.6vw, 1.34rem)
+      }
+
+      .hero-meta {
+        display: flex;
+        gap: .75rem;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        align-items: stretch
+      }
+
+      .hero-meta span {
+        border: 0;
+        border-bottom: 1px solid rgba(51, 212, 199, .45);
+        background: 0 0;
+        padding: .25rem .4rem .35rem 0;
+        border-radius: 0;
+        display: inline-flex;
+        align-items: center;
+        min-height: 60px
+      }
+
+      .hero-stripe {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        border-top: 1px solid rgba(63, 111, 143, .75);
+        border-bottom: 1px solid rgba(63, 111, 143, .75);
+        background: rgba(7, 17, 24, .9);
+        color: #a9d5ff;
+        font-family: "Space Mono", monospace;
+        overflow: hidden;
+        padding: .48rem 0
+      }
+
+      .hero-stripe-track {
+        display: flex;
+        width: max-content;
+        white-space: nowrap;
+        will-change: transform;
+        animation: stripeSlide 24s linear infinite
+      }
+
+      .hero-stripe:hover .hero-stripe-track {
+        animation-play-state: paused
+      }
+
+      .hero-stripe-track span {
+        padding-right: 2.4rem
+      }
+
+      @keyframes stripeSlide {
+        from {
+          transform: translate3d(0, 0, 0)
+        }
+
+        to {
+          transform: translate3d(-50%, 0, 0)
+        }
+      }
+
+      .identity {
+        display: grid;
+        grid-template-columns: 1.3fr 1fr;
+        gap: 2.2rem;
+        border-bottom: 1px solid rgba(63, 111, 143, .35);
+        background: linear-gradient(180deg, rgba(15, 30, 40, .58), rgba(10, 20, 28, .24))
+      }
+
+      .identity p {
+        color: #d5e5ef
+      }
+
+      .identity-person {
+        border-left: 2px solid rgba(51, 212, 199, .65);
+        padding-left: 1rem
+      }
+
+      .identity-person h2 {
+        margin-bottom: .45rem
+      }
+
+      .identity-person p {
+        margin: .2rem 0
+      }
+
+      .identity-note {
+        margin-top: .65rem;
+        max-width: 72ch;
+        color: #cde0ee;
+        line-height: 1.6
+      }
+
+      .identity-role-tag {
+        margin: .2rem 0 0;
+        color: var(--accent-2);
+        font-family: "Space Mono", monospace;
+        font-size: .9rem
+      }
+
+      .identity-stats {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        border-left: 1px solid rgba(51, 212, 199, .42)
+      }
+
+      .identity-stats li {
+        display: flex;
+        justify-content: space-between;
+        gap: .9rem;
+        padding: .7rem 0 .7rem 1rem;
+        border-bottom: 1px dashed rgba(63, 111, 143, .62)
+      }
+
+      .identity-stats span {
+        color: var(--muted)
+      }
+
+      .identity-experience {
+        grid-column: 1/-1;
+        margin-top: .2rem
+      }
+
+      .identity-experience-view {
+        border-top: 1px solid rgba(51, 212, 199, .36);
+        border-bottom: 1px solid rgba(51, 212, 199, .36);
+        background: linear-gradient(135deg, rgba(11, 27, 36, .88), rgba(8, 17, 24, .86));
+        overflow: hidden;
+        position: relative
+      }
+
+      .identity-experience-view::after,
+      .identity-experience-view::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 80px;
+        z-index: 1;
+        pointer-events: none
+      }
+
+      .identity-experience-view::before {
+        left: 0;
+        background: linear-gradient(90deg, rgba(9, 19, 26, .95), transparent)
+      }
+
+      .identity-experience-view::after {
+        right: 0;
+        background: linear-gradient(270deg, rgba(9, 19, 26, .95), transparent)
+      }
+
+      .identity-experience-track {
+        display: flex;
+        align-items: center;
+        gap: .8rem;
+        width: max-content;
+        padding: .72rem .65rem;
+        animation: expFloat 36s linear infinite
+      }
+
+      .identity-experience-view:hover .identity-experience-track {
+        animation-play-state: paused
+      }
+
+      .exp-chip {
+        border: 0;
+        border-left: 2px solid rgba(51, 212, 199, .62);
+        background: 0 0;
+        padding: .4rem .85rem;
+        min-width: 260px
+      }
+
+      .exp-chip .exp-no {
+        display: block;
+        font-family: "Space Mono", monospace;
+        font-size: .7rem;
+        color: var(--accent)
+      }
+
+      .exp-chip strong {
+        display: block;
+        margin-top: .18rem;
+        font-family: Oswald, sans-serif;
+        letter-spacing: .03em
+      }
+
+      .exp-chip p {
+        margin: .12rem 0 0;
+        color: #bad1e0;
+        font-size: .98rem
+      }
+
+      @keyframes expFloat {
+        from {
+          transform: translateX(0)
+        }
+
+        to {
+          transform: translateX(-50%)
+        }
+      }
+
+      .system-grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1rem;
+        border-bottom: 1px solid rgba(63, 111, 143, .35)
+      }
+
+      .system-grid article {
+        min-height: 220px;
+        padding: .2rem 0 .2rem 1rem;
+        background: 0 0;
+        border: 0;
+        border-left: 2px solid rgba(63, 111, 143, .85);
+        position: relative;
+        transition: transform .22s ease, border-color .22s ease
+      }
+
+      .system-grid article::after {
+        content: none
+      }
+
+      .system-grid p {
+        color: #bdd3e2
+      }
+
+      .application-concept {
+        border-bottom: 1px solid rgba(63, 111, 143, .35);
+        background: radial-gradient(circle at 12% 16%, rgba(51, 212, 199, .08), transparent 34%), linear-gradient(180deg, rgba(10, 22, 30, .78), rgba(8, 16, 23, .9))
+      }
+
+      .concept-head h2 {
+        margin-bottom: 1rem
+      }
+
+      .concept-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        max-width: 920px;
+        margin-inline: auto
+      }
+
+      .concept-head {
+        text-align: center
+      }
+
+      .qa-flip {
+        max-width: 980px;
+        margin-inline: auto
+      }
+
+      .concept-grid article {
+        border: 1px solid rgba(63, 111, 143, .45);
+        background: linear-gradient(160deg, rgba(8, 19, 28, .9), rgba(7, 14, 22, .95));
+        border-radius: 16px;
+        padding: 1rem;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, .2)
+      }
+
+      .concept-grid h3 {
+        margin-bottom: .45rem
+      }
+
+      .concept-grid ul {
+        margin: 0;
+        padding-left: 1.1rem;
+        color: #c2d7e5
+      }
+
+      .concept-grid li {
+        margin-bottom: .35rem
+      }
+
+      .qa-flip {
+        border: 1px solid rgba(63, 111, 143, .52);
+        background: radial-gradient(circle at 100% 0, rgba(121, 184, 255, .12), transparent 36%), linear-gradient(160deg, rgba(8, 19, 28, .9), rgba(7, 14, 22, .95));
+        border-radius: 18px;
+        padding: 1.1rem
+      }
+
+      .qa-shell {
+        display: grid;
+        grid-template-columns: 280px 1fr;
+        gap: .9rem
+      }
+
+      .qa-tabs {
+        display: grid;
+        gap: .45rem;
+        align-content: start
+      }
+
+      .qa-tab {
+        text-align: left;
+        border: 1px solid rgba(63, 111, 143, .65);
+        background: rgba(8, 18, 24, .74);
+        color: #d7e8f4;
+        border-radius: 10px;
+        padding: .56rem .65rem;
+        font: inherit;
+        cursor: pointer;
+        line-height: 1.32;
+        transition: border-color .18s ease, transform .18s ease, background .18s ease
+      }
+
+      .qa-tab:hover {
+        border-color: rgba(121, 184, 255, .9);
+        transform: translateX(2px)
+      }
+
+      .qa-tab.active {
+        background: linear-gradient(90deg, rgba(51, 212, 199, .2), rgba(121, 184, 255, .2));
+        border-color: rgba(121, 184, 255, .95)
+      }
+
+      .qa-stage {
+        min-height: 224px;
+        border: 1px solid rgba(63, 111, 143, .45);
+        border-radius: 14px;
+        background: rgba(9, 20, 29, .74);
+        padding: .9rem
+      }
+
+      .qa-body {
+        opacity: 1;
+        transform: translateX(0);
+        transition: opacity .24s ease, transform .24s ease
+      }
+
+      .qa-body.is-changing {
+        opacity: 0;
+        transform: translateX(10px)
+      }
+
+      .qa-q {
+        margin: 0 0 .45rem;
+        color: #e7f2f8;
+        font-weight: 700;
+        font-size: clamp(1.05rem, 1.5vw, 1.25rem)
+      }
+
+      .qa-a {
+        margin: 0;
+        color: #c2d7e5;
+        line-height: 1.55
+      }
+
+      .qa-controls {
+        margin-top: .7rem;
+        font-family: "Space Mono", monospace;
+        color: var(--muted)
+      }
+
+      .cp-upgrades {
+        border-bottom: 1px solid rgba(63, 111, 143, .35);
+        background: radial-gradient(circle at 8% 18%, rgba(51, 212, 199, .1), transparent 34%), linear-gradient(180deg, rgba(10, 25, 34, .96), rgba(7, 17, 24, .98))
+      }
+
+      .cp-head h2 {
+        margin-bottom: 1rem
+      }
+
+      .cp-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: .85rem
+      }
+
+      .cp-grid article {
+        border: 0;
+        border-left: 2px solid rgba(63, 111, 143, .85);
+        background: 0 0;
+        padding: .2rem 0 .2rem 1rem;
+        position: relative;
+        transition: transform .22s ease, border-color .22s ease
+      }
+
+      .cp-grid article::before {
+        content: none
+      }
+
+      .cp-grid h3 {
+        margin-bottom: .45rem
+      }
+
+      .cp-grid p {
+        margin: 0;
+        color: #c2d7e5
+      }
+
+      .dashboard {
+        border-bottom: 1px solid rgba(63, 111, 143, .35);
+        background: radial-gradient(circle at 82% 12%, rgba(51, 212, 199, .14), transparent 28%), linear-gradient(180deg, rgba(9, 24, 33, .94), rgba(7, 17, 24, .96))
+      }
+
+      .dashboard-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem
+      }
+
+      .metric-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: .7rem
+      }
+
+      .metric-card {
+        border: 0;
+        border-left: 2px solid rgba(63, 111, 143, .85);
+        background: 0 0;
+        padding: 0 0 0 .9rem
+      }
+
+      .metric-card span {
+        display: block;
+        color: var(--muted);
+        font-size: .9rem
+      }
+
+      .metric-card strong {
+        display: block;
+        margin-top: .2rem;
+        font-family: Oswald, sans-serif;
+        font-size: 1.7rem;
+        letter-spacing: .03em
+      }
+
+      .meter-list {
+        border: 0;
+        border-left: 2px solid rgba(63, 111, 143, .85);
+        background: 0 0;
+        padding: 0 0 0 1rem
+      }
+
+      .meter-item {
+        margin-bottom: .85rem
+      }
+
+      .meter-item:last-child {
+        margin-bottom: 0
+      }
+
+      .meter-head {
+        display: flex;
+        justify-content: space-between;
+        font-size: .92rem;
+        margin-bottom: .35rem
+      }
+
+      .meter-track {
+        height: 8px;
+        border-radius: 999px;
+        overflow: hidden;
+        background: rgba(63, 111, 143, .42)
+      }
+
+      .meter-fill {
+        width: 0;
+        height: 100%;
+        border-radius: 999px;
+        background: linear-gradient(90deg, var(--accent), var(--accent-2));
+        transition: width 1.2s cubic-bezier(.23, 1, .32, 1)
+      }
+
+      .faq-list {
+        border: 0;
+        border-top: 1px solid rgba(63, 111, 143, .65);
+        border-bottom: 1px solid rgba(63, 111, 143, .65);
+        background: 0 0;
+        padding: .3rem 0
+      }
+
+      .faq-list details {
+        border-bottom: 1px dashed rgba(63, 111, 143, .6);
+        padding: .6rem 0
+      }
+
+      .faq-list details:last-child {
+        border-bottom: 0;
+        padding-bottom: 0
+      }
+
+      .faq-list summary {
+        cursor: pointer;
+        font-weight: 700
+      }
+
+      .faq-list p {
+        margin: .5rem 0 0;
+        color: #c2d7e5
+      }
+
+      .reveal {
+        opacity: 0;
+        transform: translateY(16px);
+        transition: opacity .55s ease, transform .55s ease
+      }
+
+      .reveal.in-view {
+        opacity: 1;
+        transform: translateY(0)
+      }
+
+      .footer {
+        padding: 3.5rem min(7vw, 90px) 3.8rem;
+        background: linear-gradient(180deg, #09131b, #071018)
+      }
+
+      .footer-inner {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr 1fr;
+        gap: 1.2rem;
+        border-top: 1px solid rgba(63, 111, 143, .72);
+        padding-top: 1.5rem
+      }
+
+      .footer-brand {
+        max-width: 56ch
+      }
+
+      .footer-title {
+        margin: 0;
+        font-family: Oswald, sans-serif;
+        font-size: 1.45rem;
+        letter-spacing: .02em
+      }
+
+      .footer-copy {
+        margin: .35rem 0 0;
+        color: var(--muted);
+        line-height: 1.55
+      }
+
+      .footer-col-title {
+        margin: 0 0 .45rem;
+        font-family: "Space Mono", monospace;
+        color: #cde8fa;
+        font-size: .92rem
+      }
+
+      .footer-links {
+        display: grid;
+        gap: .55rem
+      }
+
+      .footer-link {
+        text-decoration: none;
+        color: var(--text);
+        border-bottom: 1px dashed rgba(63, 111, 143, .58);
+        padding-bottom: .28rem;
+        transition: color .2s ease, border-color .2s ease
+      }
+
+      .footer-link:hover {
+        color: var(--accent-2);
+        border-color: rgba(121, 184, 255, .9)
+      }
+
+      .footer-meta {
+        display: grid;
+        gap: .3rem
+      }
+
+      .footer-meta p {
+        margin: 0;
+        font-family: "Space Mono", monospace;
+        color: #cbe2f0
+      }
+
+      .footer-btn {
+        border: 1px solid rgba(63, 111, 143, .95);
+        border-radius: 999px;
+        padding: .46rem .84rem;
+        background: #10202b;
+        color: var(--text);
+        cursor: pointer;
+        font-weight: 700;
+        margin-top: .75rem
+      }
+
+      .back-top {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        border: 1px solid rgba(63, 111, 143, .95);
+        border-radius: 999px;
+        padding: .5rem .8rem;
+        background: rgba(11, 25, 33, .9);
+        color: var(--text);
+        cursor: pointer;
+        opacity: 0;
+        transform: translateY(10px);
+        pointer-events: none;
+        transition: opacity .25s ease, transform .25s ease;
+        z-index: 25
+      }
+
+      .back-top.show {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto
+      }
+
+      .custom-menu {
+        position: fixed;
+        min-width: 220px;
+        background: linear-gradient(160deg, rgba(9, 21, 30, .96), rgba(7, 15, 22, .98));
+        border: 1px solid rgba(63, 111, 143, .7);
+        border-radius: 12px;
+        padding: .35rem;
+        z-index: 60;
+        display: none;
+        box-shadow: 0 14px 30px rgba(0, 0, 0, .34)
+      }
+
+      .custom-menu.show {
+        display: block
+      }
+
+      .custom-menu button {
+        width: 100%;
+        text-align: left;
+        border: 0;
+        border-radius: 8px;
+        background: 0 0;
+        color: var(--text);
+        padding: .52rem .62rem;
+        font: inherit;
+        cursor: pointer
+      }
+
+      .custom-menu button:hover {
+        background: rgba(121, 184, 255, .16)
+      }
+
+      .custom-menu hr {
+        border: 0;
+        border-top: 1px dashed rgba(63, 111, 143, .55);
+        margin: .3rem 0
+      }
+
+      
+
+      @media (hover:hover) {
+
+        .cp-grid article:hover,
+        .concept-grid article:hover,
+        .metric-card:hover,
+        .system-grid article:hover {
+          transform: translateX(6px);
+          border-color: rgba(121, 184, 255, .92)
+        }
+      }
+
+      @media (max-width:980px) {
+
+        .cp-grid,
+        .concept-grid,
+        .dashboard-grid,
+        .identity,
+        .metric-grid,
+        .system-grid {
+          grid-template-columns: 1fr
+        }
+
+        .footer-inner {
+          grid-template-columns: 1fr
+        }
+      }
+
+      @media (max-width:760px) {
+        .topbar {
+          padding: .65rem .8rem
+        }
+
+        .topbar nav {
+          gap: .65rem
+        }
+
+        section {
+          padding-left: 1rem;
+          padding-right: 1rem
+        }
+
+        .hero {
+          min-height: 92vh
+        }
+
+        .hero-layer {
+          opacity: .45;
+          animation-duration: 28s
+        }
+
+        .qa-shell {
+          grid-template-columns: 1fr
+        }
+
+        .identity-experience-view::after,
+        .identity-experience-view::before {
+          width: 35px
+        }
+
+     
+      }
+
+      @media (prefers-reduced-motion:reduce) {
+
+        .layer-a,
+        .layer-b {
+          animation: none !important
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="cursor-glow" id="cursor-glow" aria-hidden="true"></div>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+    <header class="topbar"><a href="#start" class="logo">GrandRP // CP Bewerbung</a>
+      <nav><a href="#identity">Kurzprofil</a> <a href="#bewerbung">Bewerbung</a> <a href="#footer">Kontakt</a></nav>
+    </header>
+    <main>
+      <section class="hero" id="start">
+        <div class="hero-layer layer-a"></div>
+        <div class="hero-layer layer-b"></div>
+        <div class="hero-inner">
+          <p class="hero-tag">CP Application 2026</p>
+          <h1>Bewerbung als Vice der CP<br>GrandRP</h1>
+          <div class="hero-meta"><span>Milanno Bahr</span> <span>ID: 175838</span> <span>Bewerbung als Vice der
+              CP</span></div>
+        </div>
+        <div class="hero-stripe">
+          <div class="hero-stripe-track"><span>Moderation. Support. Fairness. Durchsetzung. Nachvollziehbarkeit.
+              Teamarbeit.</span> <span>Moderation. Support. Fairness. Durchsetzung. Nachvollziehbarkeit.
+              Teamarbeit.</span> <span>Moderation. Support. Fairness. Durchsetzung. Nachvollziehbarkeit.
+              Teamarbeit.</span> <span>Moderation. Support. Fairness. Durchsetzung. Nachvollziehbarkeit.
+              Teamarbeit.</span></div>
+        </div>
+      </section>
+      <section class="identity" id="identity">
+        <div class="identity-person">
+          <p class="section-kicker">Kurzprofil</p>
+          <h2>Milanno Bahr</h2>
+          <p>ID: 175838</p>
+
+          <p class="hero-copy">Kurz zu meiner Person: Ich bin Milanno Bahr und schon laenger auf dem Staat aktiv. Ich
+            war schon in mehreren Leitungspositionen taetig und habe
+            Streifen sowie Checkpoints miterlebt und teilweise mitgeleitet.</p>
+        </div>
+        <ul class="identity-stats">
+          <li><span>Bewerber</span><strong>Milanno Bahr</strong></li>
+          <li><span>Bereich</span><strong>CP</strong></li>
+          <li><span>Server</span><strong>GrandRP</strong></li>
+          <li><span>Fokus</span><strong>Streife, Checkpoints, Koordination</strong></li>
+          <li><span>Ziel</span><strong>Vice der CP</strong></li>
+        </ul>
+        <div class="identity-experience">
+          <p class="section-kicker">Erfahrung</p>
+          <div class="identity-experience-view">
+            <div id="identity-experience-track" class="identity-experience-track"></div>
+          </div>
+        </div>
+        <h2>Warum ich für die Position geeignet bin</h2>
+        <p class="identity-note">Wie bereits beschrieben, bringe ich viel Erfahrung in den Bereichen mit, die für die
+          CP entscheidend sind. Durch meine Führungserfahrung bringe ich Zuverlässigkeit, Belastbarkeit,
+          Durchsetzungsfähigkeit und Entscheidungsstärke mit. Ein professionelles und vorbildliches Auftreten ist für
+          mich selbstverständlich.</p>
+      </section>
+      <section class="system-grid">
+        <article>
+          <p class="section-kicker">Organisation</p>
+          <h3>Klare Strukturen schaffen</h3>
+          <p>Interne Abläufe werden regelmäßig überprüft und optimiert, um Effizienz und Transparenz zu gewährleisten.
+          </p>
+          <p>Feste Zuständigkeiten und definierte Prozesse sorgen für Stabilität und eine verlässliche Arbeitsweise.</p>
+        </article>
+
+        <article>
+          <p class="section-kicker">Qualitätskontrolle</p>
+          <h3>Standards sichern</h3>
+          <p>Arbeitsweisen und Entscheidungen werden intern reflektiert, um eine gleichbleibend hohe Qualität
+            sicherzustellen.</p>
+          <p>Fehler werden analysiert, nicht ignoriert – mit dem Ziel, aus ihnen zu lernen und Strukturen
+            weiterzuentwickeln.</p>
+        </article>
+
+        <article>
+          <p class="section-kicker">Weiterentwicklung</p>
+          <h3>Team stärken und fördern</h3>
+          <p>Mitglieder erhalten klare Orientierung, konstruktives Feedback und gezielte Unterstützung bei ihrer
+            Entwicklung.</p>
+          <p>Interne Schulungen und Austauschformate fördern Kompetenz, Sicherheit und Eigenverantwortung.</p>
+        </article>
+
+        <article>
+          <p class="section-kicker">Führung</p>
+          <h3>Präsenz und Verantwortung</h3>
+          <p>Führung bedeutet Vorbildfunktion, Entscheidungsstärke und konsequentes Handeln – besonders in kritischen
+            Situationen.</p>
+        </article>
+      </section>
+
+
+    </main>
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <p class="footer-title">GrandRP CP Bewerbung</p>
+
+        </div>
+        <div>
+          <p class="footer-col-title">Profile & Links</p>
+          <div class="footer-links"><a class="footer-link" href="https://github.com/m1l4nno" target="_blank"
+              rel="noopener noreferrer">GitHub: github.com/m1l4nno</a> <a class="footer-link" href="https://m1l4nno.com"
+              target="_blank" rel="noopener noreferrer">Website: m1l4nno.com</a> <a class="footer-link"
+              href="https://discord.com/users/1046511558177587314" target="_blank" rel="noopener noreferrer">Discord:
+              m1l4nno.007</a></div>
+        </div>
+        <div class="footer-meta">
+          <p class="footer-col-title">Author</p>
+          <p>Milanno Bahr</p>
+          <p>Developer: m1l4nno.007</p>
+          <p>Year: 2026</p>
+        </div>
+      </div>
+    </footer><button id="back-top" class="back-top" type="button">Nach oben</button>
+    <div id="custom-menu" class="custom-menu" role="menu" aria-label="Kontextmenü"><button type="button"
+        data-action="go-start">Zum Seitenanfang</button> <button type="button" data-action="go-application">Zur
+        Bewerbung</button>
+      <hr>
+    </div>
+    <script>const experienceItems = [{ no: "01", title: "LSPD unter DeShawn Chaplin", text: "2 Monate - Rang nicht mehr sicher" }, { no: "02", title: "SAHP unter Maik Bosa", text: "Rang 25 - Deputy Chief bis Abteilungsleiter" }, { no: "03", title: "SAHP unter Opa Patel", text: "Rang 22 - Commander" }, { no: "04", title: "FIB unter Maximilian Bianchi", text: "Rang 22 - Commander" }, { no: "05", title: "Admin (RP-Unterbrechung)", text: "6 Monate" }, { no: "06", title: "NG unter Simon Kellerman", text: "1 Monat - Rang 24" }, { no: "07", title: "GOV unter Kenan Kasalla", text: "2 Monate - Rang 28 Assistant Governor" }], qaItems = [{ question: "Zu welchen Zeiten bist du online?", answer: "Montag bis Freitag meist zwischen 17:00 und 23:00 Uhr, am Wochenende flexibel ab dem Nachmittag." }, { question: "Wie schätzt du dein Wissen im Bereich Regelwerk ein?", answer: "Ich würde mein Regelwerk-Wissen als sehr gut einschätzen und halte mich durch Updates regelmäßig auf dem aktuellen Stand." }, { question: "Welche Erfahrungen hattest du in offiziellen sowie inoffiziellen Organisationen?", answer: "Ich war in mehreren offiziellen Organisationen auf Führungs- und Command-Ebene aktiv und habe zusätzlich Erfahrung in internen Teamstrukturen gesammelt." }, { question: "Wärst du bereit, das RP-Leben zu verlassen, um CP zu werden?", answer: "Ja, ich bin bereit, den Fokus vollständig auf die CP-Rolle und die Support-Arbeit zu legen." }, { question: "Wärst du bereit, dein Unternehmen zu verkaufen? (Es ist verboten, ein Geschäft zu haben, während man CP ist)", answer: "Ja, ich wäre bereit, mein Unternehmen regelkonform zu verkaufen, um die Voraussetzungen für die CP-Position zu erfüllen." }]; let qaIndex = 0; function renderIdentityExperience() { const e = document.getElementById("identity-experience-track"); if (!e) return; const t = experienceItems.map(e => `\n      <article class="exp-chip">\n        <span class="exp-no">${e.no}</span>\n        <strong>${e.title}</strong>\n        <p>${e.text}</p>\n      </article>\n    `).join(""); e.innerHTML = `${t}${t}` } function renderQATabs() { const e = document.getElementById("qa-tabs"); e && (e.innerHTML = qaItems.map((e, t) => `<button class="qa-tab${t === qaIndex ? " active" : ""}" data-qa-tab="${t}" type="button">${t + 1}. ${e.question}</button>`).join("")) } function renderQA({ animate: e = !1 } = {}) { const t = document.getElementById("qa-body"), n = document.getElementById("qa-question"), o = document.getElementById("qa-answer"), a = document.getElementById("qa-index"); if (!(t && n && o && a)) return; const i = qaItems[qaIndex], r = () => { n.textContent = i.question, o.textContent = i.answer, a.textContent = `${qaIndex + 1} / ${qaItems.length} ausgewählt`, renderQATabs() }; e ? (t.classList.add("is-changing"), setTimeout(() => { r(), t.classList.remove("is-changing") }, 170)) : r() } function initCursorGlow() { const e = document.getElementById("cursor-glow"); e && window.addEventListener("mousemove", t => { e.style.left = `${t.clientX}px`, e.style.top = `${t.clientY}px` }) } function initMiniGame() { const e = document.getElementById("game-modal"), t = document.getElementById("game-close"), n = document.getElementById("game-start"), o = document.getElementById("game-pause"), a = document.getElementById("game-reset"), i = document.getElementById("game-canvas"), r = document.getElementById("game-meta"), s = document.getElementById("game-score"), l = document.getElementById("game-lives"), d = document.getElementById("game-level"), c = document.getElementById("game-wave"), m = document.getElementById("game-kills"), u = document.getElementById("game-bombs"), g = document.getElementById("game-missile"), h = document.getElementById("game-energy"), f = document.getElementById("game-boss"), y = document.getElementById("game-mission"), w = document.getElementById("game-time"); if (!(e && t && n && o && a && i && r && s && l && d && c && m && u && g && h && f && y && w)) return; const x = i.getContext("2d"); if (!x) return; const p = i.width, b = i.height; let v = 0, E = !1, I = !1, M = 0, L = 0, k = 0, q = 0, C = 0, B = 0, A = 4, S = 1, P = 1, $ = 0, z = 0, R = 14, T = 1, F = 90, G = 1, D = 0, W = null; const N = { x: .5 * p, y: .5 * b, size: 18, speed: 300, fireRate: .14, facingX: 1, facingY: 0 }, H = new Set, O = [], Y = [], K = Array.from({ length: 140 }, () => ({ x: Math.random() * p, y: Math.random() * b, s: 1.7 * Math.random() + .3, v: 22 * Math.random() + 8 })), Q = { x: p / 2, y: b / 2, down: !1 }; function X(e, t) { return Math.random() * (t - e) + e } function U(e, t, n) { return Math.max(t, Math.min(n, e)) } function V(e, t) { const n = e.x - t.x, o = e.y - t.y; return Math.hypot(n, o) } function Z() { s.textContent = String(B), l.textContent = String(A), d.textContent = String(S), c.textContent = String(P), m.textContent = String($), u.textContent = String(T), g.textContent = "Aus", h.textContent = "Aus", f.textContent = "-", w.textContent = String(Math.max(0, Math.ceil(F))), y.textContent = `Mission: Eliminiere ${R} Gegner in Welle ${P}. Fortschritt ${z}/${R}.` } function j() { e.classList.remove("show"), e.setAttribute("aria-hidden", "true"), document.body.classList.remove("game-modal-open"), J("Runde beendet.") } function J(e) { E = !1, I = !1, v && cancelAnimationFrame(v), v = 0, W && clearInterval(W), W = null, Q.down = !1, H.clear(), r.textContent = e || `Runde beendet. Ergebnis: ${B} Punkte.`, o.textContent = "Pause", Z() } function _() { B = 0, A = 4, S = 1, P = 1, $ = 0, z = 0, R = 14, T = 1, F = 90, G = 1, D = 0, L = 0, k = 0, q = 0, C = 0, O.length = 0, Y.length = 0, N.x = .5 * p, N.y = .5 * b, N.facingX = 1, N.facingY = 0, Z() } function ee(e) { $ += 1, z += 1, G = Math.min(3, G + .07), D = 2.6, B += Math.round((14 + 2 * P) * G), $ % 8 == 0 && (S += 1), z >= R && (P += 1, z = 0, R += 4, T = Math.min(3, T + 1), r.textContent = `Welle ${P} gestartet.`) } function te(e) { q > 0 || (A -= 1, G = 1, D = 0, A <= 0 ? J(`Game Over. Ergebnis: ${B} Punkte.`) : r.textContent = e) } function ne(e) { !function (e) { const t = q > 0 ? 2.2 : 1, n = N.speed * t * e; (H.has("arrowup") || H.has("w")) && (N.y -= n), (H.has("arrowdown") || H.has("s")) && (N.y += n), (H.has("arrowleft") || H.has("a")) && (N.x -= n), (H.has("arrowright") || H.has("d")) && (N.x += n), N.x = U(N.x, N.size, p - N.size), N.y = U(N.y, N.size, b - N.size) }(e), D = Math.max(0, D - e), 0 === D && (G = Math.max(1, G - .5 * e)), k = Math.max(0, k - e), q = Math.max(0, q - e); for (const t of K) t.y += t.v * e, t.y > b + 5 && (t.y = -5, t.x = Math.random() * p); C += e; const t = Math.max(.24, .8 - .03 * P); C >= t && (C = 0, function () { const e = Math.floor(4 * Math.random()); let t = 0, n = 0; 0 === e && (t = X(0, p), n = -16), 1 === e && (t = p + 16, n = X(0, b)), 2 === e && (t = X(0, p), n = b + 16), 3 === e && (t = -16, n = X(0, b)), Y.push({ x: t, y: n, r: X(11, 16), speed: X(84, 120) + 6 * P, hp: 1 + Math.floor(P / 4), angle: X(0, 2 * Math.PI), spin: X(-2, 2) }) }()), L = Math.max(0, L - e), Q.down && L <= 0 && function () { const e = Q.x - N.x, t = Q.y - N.y, n = Math.max(.001, Math.hypot(e, t)), o = e / n, a = t / n; N.facingX = o, N.facingY = a, O.push({ x: N.x + o * (N.size + 4), y: N.y + a * (N.size + 4), vx: 560 * o, vy: 560 * a, ttl: 1.08, r: 4, dmg: 1 }), L = Math.max(.06, N.fireRate - .005 * (S - 1)) }(); for (let t = O.length - 1; t >= 0; t--) { const n = O[t]; n.x += n.vx * e, n.y += n.vy * e, n.ttl -= e, (n.ttl <= 0 || n.x < -20 || n.x > p + 20 || n.y < -20 || n.y > b + 20) && O.splice(t, 1) } for (let t = Y.length - 1; t >= 0; t--) { const n = Y[t], o = N.x - n.x, a = N.y - n.y, i = Math.max(.001, Math.hypot(o, a)); if (n.x += o / i * n.speed * e, n.y += a / i * n.speed * e, n.angle += n.spin * e, V(N, n) < N.size + n.r && (Y.splice(t, 1), te("Treffer kassiert."), !E)) return } for (let e = Y.length - 1; e >= 0; e--) { const t = Y[e]; for (let n = O.length - 1; n >= 0; n--) { const o = O[n]; if (V(t, o) < t.r + o.r) { O.splice(n, 1), t.hp -= o.dmg, t.hp <= 0 && (Y.splice(e, 1), ee()); break } } } Z() } function oe() { x.clearRect(0, 0, p, b), x.fillStyle = "rgba(4, 12, 18, 0.96)", x.fillRect(0, 0, p, b); for (const e of K) x.beginPath(), x.arc(e.x, e.y, e.s, 0, 2 * Math.PI), x.fillStyle = "rgba(176, 215, 235, 0.65)", x.fill(); x.strokeStyle = "rgba(121,184,255,0.08)"; for (let e = 0; e < p; e += 64)x.beginPath(), x.moveTo(e, 0), x.lineTo(e, b), x.stroke(); for (let e = 0; e < b; e += 64)x.beginPath(), x.moveTo(0, e), x.lineTo(p, e), x.stroke(); for (const e of O) x.beginPath(), x.arc(e.x, e.y, e.r, 0, 2 * Math.PI), x.fillStyle = "rgba(159,233,255,0.95)", x.fill(); for (const e of Y) x.save(), x.translate(e.x, e.y), x.rotate(e.angle), x.beginPath(), x.arc(0, 0, e.r, 0, 2 * Math.PI), x.fillStyle = "rgba(255,100,120,0.92)", x.fill(), x.strokeStyle = "rgba(255,180,190,0.8)", x.lineWidth = 2, x.stroke(), x.restore(); x.save(), x.translate(N.x, N.y), x.rotate(Math.atan2(N.facingY, N.facingX)), x.beginPath(), x.moveTo(22, 0), x.lineTo(-14, -12), x.lineTo(-8, 0), x.lineTo(-14, 12), x.closePath(), x.fillStyle = "#33d4c7", x.fill(), x.strokeStyle = "#9fe9ff", x.lineWidth = 2, x.stroke(), x.restore(), x.fillStyle = "rgba(220,238,248,0.9)", x.font = "12px Space Mono", x.fillText(`Combo x${G.toFixed(2)}`, 12, 18), x.fillText(k > 0 ? `Dash CD ${k.toFixed(1)}s` : "Dash bereit", 12, 36) } function ae(e) { if (!E || I) return; const t = Math.min((e - M) / 1e3, .04); M = e, ne(t), oe(), E && !I && (v = requestAnimationFrame(ae)) } n.addEventListener("click", function () { _(), E = !0, I = !1, M = performance.now(), r.textContent = "Runde läuft. Schieße Gegner ab und überlebe.", o.textContent = "Pause", W && clearInterval(W), W = setInterval(() => { F -= 1, F <= 0 && (F = 0, J(`Zeit abgelaufen. Ergebnis: ${B} Punkte.`)), Z() }, 1e3), v = requestAnimationFrame(ae) }), o.addEventListener("click", function () { E && (I = !I, o.textContent = I ? "Fortsetzen" : "Pause", r.textContent = I ? "Pausiert." : "Runde läuft weiter.", I ? v && (cancelAnimationFrame(v), v = 0) : (M = performance.now(), v = requestAnimationFrame(ae))) }), a.addEventListener("click", function () { J("Bereit für eine neue Runde."), _(), oe() }), t.addEventListener("click", j), e.addEventListener("click", t => { t.target === e && j() }), i.addEventListener("mousemove", e => { const t = i.getBoundingClientRect(); Q.x = (e.clientX - t.left) * (i.width / t.width), Q.y = (e.clientY - t.top) * (i.height / t.height) }), i.addEventListener("mousedown", () => { Q.down = !0 }), window.addEventListener("mouseup", () => { Q.down = !1 }), window.addEventListener("keydown", t => { const n = t.key.toLowerCase(); return "escape" === n && e.classList.contains("show") ? (t.preventDefault(), void j()) : " " === n ? (e.classList.contains("show") && t.preventDefault(), void (!E || I || k > 0 || q > 0 || (q = .16, k = 2.4))) : "q" === n ? (e.classList.contains("show") && t.preventDefault(), void (!E || I || T < 1 || (T -= 1, B += 10 * Y.length, $ += Y.length, z += Y.length, Y.length = 0, r.textContent = "Bombe gezündet.", z >= R && (P += 1, z = 0, R += 4), Z()))) : void (["arrowup", "arrowdown", "arrowleft", "arrowright", "w", "a", "s", "d"].includes(n) && (H.add(n), e.classList.contains("show") && t.preventDefault())) }), window.addEventListener("keyup", e => { H.delete(e.key.toLowerCase()) }), window.openGameModal = function () { e.classList.add("show"), e.setAttribute("aria-hidden", "false"), document.body.classList.add("game-modal-open") }, window.closeGameModal = j, _(), oe() } function initCustomContextMenu() { const e = document.getElementById("custom-menu"), t = document.getElementById("game-modal"); function n() { e.classList.remove("show") } e && t && (document.addEventListener("contextmenu", t => { t.preventDefault(); const n = Math.min(t.clientX, window.innerWidth - 230), o = Math.min(t.clientY, window.innerHeight - 170); e.style.left = `${Math.max(8, n)}px`, e.style.top = `${Math.max(8, o)}px`, e.classList.add("show") }), document.addEventListener("click", () => n()), document.addEventListener("scroll", () => n(), { passive: !0 }), window.addEventListener("resize", n), document.addEventListener("keydown", e => { const t = e.key.toLowerCase(); ("F12" === e.key || e.ctrlKey && e.shiftKey && ("i" === t || "j" === t || "c" === t) || e.ctrlKey && ("u" === t || "s" === t || "p" === t)) && (e.preventDefault(), n()) }), e.addEventListener("click", e => { const o = e.target.getAttribute("data-action"); o && (n(), "go-start" === o && document.getElementById("start")?.scrollIntoView({ behavior: "smooth" }), "go-application" === o && document.getElementById("bewerbung")?.scrollIntoView({ behavior: "smooth" }), "quote" === o && alert("Stabilität schlägt Tempo. Konsequenz schlägt Zufall."), "open-game" === o && ("function" == typeof window.openGameModal ? window.openGameModal() : (t.classList.add("show"), t.setAttribute("aria-hidden", "false"), document.body.classList.add("game-modal-open")))) })) } function updateScrollProgress() { const e = document.getElementById("scroll-progress"), t = document.getElementById("back-top"), n = window.scrollY || document.documentElement.scrollTop, o = document.documentElement.scrollHeight - window.innerHeight, a = o > 0 ? n / o * 100 : 0; e && (e.style.width = `${a}%`), t && t.classList.toggle("show", n > 500) } function initReveal() { const e = document.querySelectorAll("section, .system-grid article, .concept-grid article, .cp-grid article, .metric-card, .faq-list"); e.forEach(e => e.classList.add("reveal")); const t = new IntersectionObserver(e => { e.forEach(e => { e.isIntersecting && (e.target.classList.add("in-view"), t.unobserve(e.target)) }) }, { threshold: .14 }); e.forEach(e => t.observe(e)) } function animateCounters() { document.querySelectorAll("[data-count]").forEach(e => { const t = Number(e.dataset.count) || 0, n = e.dataset.suffix || "", o = performance.now(); requestAnimationFrame(function a(i) { const r = Math.min((i - o) / 1e3, 1), s = Math.round(r * t); e.textContent = `${s}${n}`, r < 1 && requestAnimationFrame(a) }) }) } function animateMeters() { const e = document.querySelectorAll(".meter-fill"), t = new IntersectionObserver(e => { e.forEach(e => { if (!e.isIntersecting) return; const n = e.target.dataset.progress || "0"; e.target.style.width = `${n}%`, t.unobserve(e.target) }) }, { threshold: .4 }); e.forEach(e => t.observe(e)) } function initNavSpy() { const e = Array.from(document.querySelectorAll(".topbar nav a")), t = e.map(e => document.querySelector(e.getAttribute("href"))).filter(Boolean), n = new IntersectionObserver(t => { t.forEach(t => { if (!t.isIntersecting) return; const n = `#${t.target.id}`; e.forEach(e => { e.classList.toggle("active", e.getAttribute("href") === n) }) }) }, { threshold: .45 }); t.forEach(e => n.observe(e)) } function bindEvents() { const p = document.getElementById("print-btn"); p && p.addEventListener("click", () => window.print()); const e = document.getElementById("back-top"); e && e.addEventListener("click", () => { window.scrollTo({ top: 0, behavior: "smooth" }) }); const t = document.getElementById("qa-tabs"), n = document.getElementById("qa-flip"); t && t.addEventListener("click", e => { const t = e.target.closest("[data-qa-tab]"); if (!t) return; const n = Number(t.dataset.qaTab); Number.isNaN(n) || n === qaIndex || (qaIndex = n, renderQA({ animate: !0 })) }), window.addEventListener("keydown", e => { if ("ArrowLeft" !== e.key && "ArrowRight" !== e.key) return; if (n && !n.matches(":hover")) return; const t = qaIndex + ("ArrowLeft" === e.key ? -1 : 1); t < 0 || t >= qaItems.length || (qaIndex = t, renderQA({ animate: !0 })) }), window.addEventListener("scroll", updateScrollProgress, { passive: !0 }), window.addEventListener("resize", updateScrollProgress) } function init() { renderIdentityExperience(), renderQATabs(), renderQA(), initCursorGlow(), initMiniGame(), initCustomContextMenu(), initReveal(), animateCounters(), animateMeters(), initNavSpy(), bindEvents(), updateScrollProgress() } init()</script>
+  </body>
+
+  </html>
